@@ -1,0 +1,68 @@
+[
+	{
+		"undo": {
+			"type": "delete_entity",
+			"table": "test98"
+		},
+		"redo": {
+			"type": "create_entity",
+			"table": "test98",
+			"value": {
+				"name": "test98",
+				"fields": [
+					{
+						"name": "id",
+						"type": "number",
+						"primary": true,
+						"unique": true,
+						"required": true,
+						"read": true,
+						"write": true,
+						"default": false,
+						"autoIncrement": true
+					}
+				],
+				"relations": [],
+				"queries": []
+			}
+		},
+		"$$hashKey": "object:724"
+	},
+	{
+		"undo": {
+			"type": "delete_field",
+			"table": "test98",
+			"value": "title"
+		},
+		"redo": {
+			"type": "create_field",
+			"table": "test98",
+			"value": {
+				"name": "title",
+				"type": "text",
+				"primary": false,
+				"unique": false,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false,
+				"defaultValue": "test"
+			},
+			"position": 1
+		},
+		"$$hashKey": "object:189"
+	},
+	{
+		"undo": {
+			"type": "rename_entity",
+			"table": "addonnnnnn",
+			"value": "test98"
+		},
+		"redo": {
+			"type": "rename_entity",
+			"table": "test98",
+			"value": "addonnnnnn"
+		},
+		"$$hashKey": "object:879"
+	}
+]
